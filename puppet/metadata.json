@@ -1,0 +1,11 @@
+{
+  "name": "vagrant-pxe",
+  "version": "0.1.0",
+  "author": "dsbaars",
+  "summary": "Configures PXE",
+  "license": "MIT",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"lex-dnsmasq", "version_requirement": ">= 2.6.1"}
+  ]
+}

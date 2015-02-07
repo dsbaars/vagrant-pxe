@@ -1,0 +1,6 @@
+.tmp/
+puppet/modules/
+puppet/.tmp
+.vagrant
+pxe/*
+!pxe/.gitkeep
