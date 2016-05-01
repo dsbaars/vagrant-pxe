@@ -5,3 +5,7 @@ forge "https://forgeapi.puppetlabs.com"
 
 # use dependencies defined in metadata.json
 metadata
+
+mod 'lex-dnsmasq',
+  :git => 'https://github.com/dsbaars/puppet-dnsmasq.git',
+  :ref => '2.6.2'

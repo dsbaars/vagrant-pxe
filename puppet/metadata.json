@@ -5,7 +5,7 @@
   "summary": "Configures PXE",
   "license": "MIT",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
-    {"name":"lex-dnsmasq", "version_requirement": ">= 2.6.1"}
+    {"name":"puppetlabs-stdlib","version_requirement":">= 2.2.1"},
+    {"name":"puppetlabs-apt","version_requirement":">= 2.1.1"}
   ]
 }

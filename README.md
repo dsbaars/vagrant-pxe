@@ -1,7 +1,9 @@
 Vagrant PXE
 ===========
 
-This vagrantfile configures a Virtual Machine to be a PXE server using DNSMasq.
+![vagrant-pxe demo](doc/demo.gif)
+
+This Vagrantfile configures a Virtual Machine to be a PXE server using DNSMasq.
 It will NOT replace an existing DHCP server in your network, instead it is a DHCP proxy.
 
 Please keep in mind the following:
@@ -9,7 +11,7 @@ Please keep in mind the following:
 
 (Source: https://docs.vagrantup.com/v2/networking/public_network.html)
 
-The folder PXE wil be the TFTP-server root.
+The folder PXE will be the TFTP-server root.
 
 Requirements
 ------------
@@ -24,6 +26,8 @@ Example
 -------
 How to let PXE clients boot the Ubuntu Linux 14.04 LTS?
 Extract [netboot.tar.gz](http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/installer-amd64/current/images/netboot/) to /pxe and go.
+
+**new in 1.1.0:** You can also run [scripts/download_xenial_netboot.sh](scripts/download_xenial_netboot.sh) to download and extract the required files for a Ubuntu 16.04 netboot.
 
 Troubleshooting
 ---------------
